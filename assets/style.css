@@ -1,9 +1,10 @@
+/* removing defauld margind padding and set font family */
 * {
   margin: 0;
   padding: 0;
   font-family: "Inter", sans-serif;
 }
-
+/* setting up section margin */
 section {
   margin: 0 8%;
 }
@@ -41,6 +42,7 @@ nav ul li a {
   font-weight: bold;
   cursor: pointer;
 }
+/* nav ends here */
 
 /* Hero Starts Here */
 /* since we did'nt learn linear-gradient so i just use "linear-gradient(
@@ -86,7 +88,9 @@ nav ul li a {
   max-width: 829px;
   width: 100%;
 }
-/* Meet The Speakers Section  */
+/* hero ends here */
+
+/* Meet The Speakers Section Starts Here */
 .meet-the-speaker {
   display: grid;
   justify-content: center;
@@ -136,6 +140,8 @@ nav ul li a {
   color: #575757;
   font-size: 14px;
 }
+/* Meet The Speakers Section Starts Here */
+
 /* Pricing section */
 
 .pricing {
