@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+section {
+  margin: 0 8%;
+}
+
+/* Nav Section Start */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  margin: 23.5px 0;
+}
+nav ul {
+  display: flex;
+  gap: 10%;
+}
+
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  font-family: "Arimo", sans-serif;
+  text-decoration: none;
+  color: #575757;
+}
+.btn {
+  border: none;
+  background-color: #1d4ed8;
+  height: 56px;
+  width: 192px;
+  border-radius: 12px;
+  padding: 4px;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* Hero Starts Here */
+/* since we did'nt learn linear-gradient so i just use "linear-gradient(
+      to top right,
+      rgba(0, 0, 0, 0.95),
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0)
+    ) " this from gemini and here is my prompt " I want to use black linear-gradient in my background image on left side and bottom-left corner so give me the linear-gradient and remember that I have already set my background-image " */
+.hero-bg {
+  background-image:
+    linear-gradient(
+      to top right,
+      rgba(0, 0, 0, 0.95),
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0)
+    ),
+    url(./banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+}
+.hero-bg {
+  display: flex;
+  justify-content: center;
+}
+.hero-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  text-align: center;
+}
+.hero-main h1 {
+  font-size: 5rem;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 136px;
+}
+.hero-main p {
+  font-size: 1.3rem;
+  margin: 16px 0 300px 0;
+  max-width: 829px;
+  width: 100%;
+}
+/* Meet The Speakers Section  */
+.meet-the-speaker {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.meet-the-speaker h1 {
+  margin: 50px;
+}
+.mts-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  gap: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+.mts-card img {
+  height: 100%;
+  width: 100%;
+}
+.mts-card {
+  border-radius: 20px;
+  border: 1px solid #e5e7eb;
+  text-align: left;
+}
+.mts-card p {
+  padding: 5px;
+}
