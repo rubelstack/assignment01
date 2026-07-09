@@ -63,11 +63,10 @@ nav ul li a {
   background-repeat: no-repeat;
   background-size: cover;
   height: 90vh;
-}
-.hero-bg {
   display: flex;
   justify-content: center;
 }
+
 .hero-main {
   display: flex;
   flex-direction: column;
