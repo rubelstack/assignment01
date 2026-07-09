@@ -172,12 +172,14 @@ nav ul li a {
   flex-direction: column;
   gap: 20px;
   margin-top: 20px;
+  margin-left: 15px;
 }
 .pricing-card-dark ul {
   display: flex;
   flex-direction: column;
   gap: 20px;
   margin-top: 20px;
+  margin-left: 15px;
 }
 ul li::marker {
   color: #2563eb;
