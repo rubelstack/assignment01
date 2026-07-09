@@ -14,11 +14,11 @@ nav {
   justify-content: space-between;
   padding: 10px;
   align-items: center;
-  margin: 23.5px 0;
 }
 nav ul {
   display: flex;
   gap: 10%;
+  margin: 23.5px 0;
 }
 
 nav ul li {
@@ -94,6 +94,8 @@ nav ul li a {
 }
 .meet-the-speaker h1 {
   margin: 50px;
+  font-size: 3.5rem;
+  font-weight: bold;
 }
 .mts-gallery {
   display: grid;
@@ -101,7 +103,6 @@ nav ul li a {
   gap: 10px;
   justify-content: center;
   align-items: center;
-  min-height: 90vh;
   gap: 20px;
   max-width: 800px;
   margin: auto;
@@ -109,6 +110,7 @@ nav ul li a {
 .mts-card img {
   height: 100%;
   width: 100%;
+  border-radius: 20px 20px 0 0;
 }
 .mts-card {
   border-radius: 20px;
@@ -117,4 +119,5 @@ nav ul li a {
 }
 .mts-card p {
   padding: 5px;
+  margin-left: 20px;
 }
