@@ -428,4 +428,30 @@ ul li::marker {
 footer {
   background-color: #0d1b2a;
   color: #ffffff;
+  padding: 20px 0px;
+}
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.footer-bottom {
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+}
+.sociaal-link ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+}
+.sociaal-link a {
+  text-decoration: none;
+  color: #ffffff;
 }
