@@ -104,7 +104,6 @@ nav ul li a {
 .mts-gallery {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
   justify-content: center;
   align-items: center;
   gap: 20px;
@@ -201,6 +200,7 @@ nav ul li a {
   margin-top: 20px;
   margin-left: 15px;
 }
+/* Dear Mentors i goolge it how to change ul list item bullet color and learnt it from https://www.w3schools.com/howto/howto_css_bullet_color.asp */
 ul li::marker {
   color: #2563eb;
 }
