@@ -169,7 +169,8 @@ nav ul li a {
   display: flex;
   flex-direction: column;
   height: 444px;
-  width: 300px;
+  max-width: 300px;
+  width: 100%;
   border: 1px solid black;
   padding: 30px;
   border-radius: 12px;
@@ -179,7 +180,8 @@ nav ul li a {
   display: flex;
   flex-direction: column;
   min-height: 444px;
-  width: 300px;
+  max-width: 300px;
+  width: 100%;
   border: 1px solid black;
   padding: 30px;
   border-radius: 12px;
