@@ -9,4 +9,4 @@ i use the figma file for font size, font family and other details like color cod
 
 ## Video Is Here
 
-[![Watch the video](https://img.youtube.com/vi/_hZTfcbYP03U/0.jpg)](https://www.youtube.com/watch?v=hZTfcbYP03U)
+[![Watch the video](https://img.youtube.com/vi/hZTfcbYP03U/0.jpg)](https://www.youtube.com/watch?v=hZTfcbYP03U)
