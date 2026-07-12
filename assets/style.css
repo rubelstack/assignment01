@@ -62,7 +62,6 @@ nav ul li a {
     url(./banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 90vh;
   display: flex;
   justify-content: center;
 }
@@ -88,6 +87,9 @@ nav ul li a {
   width: 100%;
 }
 /* hero ends here */
+.hero-main button {
+  margin-bottom: 79px;
+}
 
 /* Meet The Speakers Section Starts Here */
 .meet-the-speaker {
@@ -455,3 +457,4 @@ footer {
   text-decoration: none;
   color: #ffffff;
 }
+/* Footer Section Ends Here */
